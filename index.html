@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css"
+    />
+    <link rel="stylesheet" href="otrocss.css">
+    <title>La Princesa y el Sapo</title>
+  </head>
+  <body>
+    <div class="paper container">
+      <h1>La Princesa y el Sapo</h1>
+      <h3><p>Una historia interactiva con un juego incluido</p></h3>
+    </div>
+  </body>
+  
+  <div class="row flex-spaces tabs">
+    <input id="tab1" type="radio" name="tabs" checked>
+    <label for="tab1">Historia</label>
+  
+    <input id="tab2" type="radio" name="tabs">
+    <label for="tab2">Minijuego</label>
+  
+    <input id="tab3" type="radio" name="tabs">
+    <label for="tab3">Nosotras</label>
+  
+    <div class="content" id="content1">
+
+        <div class="row">
+ 
+            <article>
+                <h4><p>"La princesa y el sapo" es un cuento de hadas que sigue la historia de Tiana, una joven 
+                    trabajadora de Nueva Orleans con el sueño de abrir su propio restaurante. Un día, conoce a 
+                    un príncipe transformado en sapo llamado Naveen debido a un hechizo. Después de un encuentro 
+                    inusual, Tiana también se convierte en rana</p></h4>
+                    <br><br>
+                    <img src="img/sapos.jpg" alt="foto de los sapos" class="centrada">
+                    <p>
+            </article>
+
+            <article>
+               <h4><p>Juntos, emprenden un viaje a través de los bayous de Luisiana para encontrar a una 
+                    sacerdotisa vudú que pueda revertir el hechizo. En el camino, enfrentan desafíos, conocen 
+                    a personajes coloridos y, finalmente, descubren que el amor verdadero va más allá de las 
+                    apariencias. La historia celebra la importancia del trabajo duro, la amistad y el amor auténtico</p></h4>
+                    <br><br>
+                    <img src="img/principes.jpg" alt="foto de los principes" class="centrada">
+                    <p>
+            </article>
+
+        </div>
+
+    </div>
+    <div class="content" id="content2">
+      <p>
+        
+        <div class="row flex-spaces child-borders">
+            <label class="paper-btn margin" for="modal-1">Jugar!</label>
+          </div>
+          <input class="modal-state" id="modal-1" type="checkbox">
+          <div class="modal">
+            <label class="modal-bg" for="modal-1"></label>
+            <div class="modal-body">
+              <label class="btn-close" for="modal-1">X</label>
+              <iframe src="tpfinal/index.html" frameborder="0" width="640" height="640"></iframe>
+            </div>
+          </div>
+
+      </p>
+    </div>
+    <div class="content" id="content3">
+       <h4><p>Somos Ana Simone y Candelaria Villarreal, estudiantes de la carrera Diseño Multimedial
+            en la UNLP. Este proyecto es parte de la materia Tecnología Multimedial, se basó en crear un juego 
+            utilizando el lenguaje p5js y una programación orientada a objetos, además de la página web creada 
+            con HTML y CSS
+        </p>
+      <p><img src="img/ani.jpeg" alt="imagen de ani">
+        Ana, proveniente de Villa Elisa, Provincia de Buenos Aires. Actualmente estudiando la Lic. de Diseño
+        Multimedial. Jugadora de voley en la UNLP y fanática de Racing. 
+        </p>
+        
+      <p><img src="img/cande.jpeg" alt="imagen de cande"> 
+        Candelaria, proveniente de La Plata, Provincia de Buenos Aires. Actualmente estudiando la Lic. de Diseño 
+        Multimedial. Jugadora de hockey en GELP y fanática de ese mismo club.
+    </p>
+</h4>
+    </div>
+
+  </div>
+</html>

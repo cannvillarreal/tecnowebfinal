@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Kalnia:wght@300;400&family=Merriweather&display=swap');
+
+body {
+    background-color: rgb(86, 99, 86);
+}
+
+body, h1 {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: kalnia, serif;
+    color: rgb(58, 82, 64);
+}
+
+h3 {
+    color: rgb(114, 114, 52);
+}
+
+h4 {
+    color: whitesmoke;
+    font-family: merriweather;
+}
+
+div {
+    width: 800px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+
